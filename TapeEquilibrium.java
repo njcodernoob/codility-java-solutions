@@ -50,7 +50,7 @@ public class TapeEquilibrium {
 	public static int solution(int[] a) {
         // write your code in Java SE 8
         int sumA = 0;
-        int suml = Math.abs(a[0]);
+        int suml = a[0];
         
         for (int i = 0; i < a.length; i++) {
             sumA += a[i];
